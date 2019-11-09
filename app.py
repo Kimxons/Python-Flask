@@ -69,7 +69,8 @@ def register():
 
         flash('You are now registered', 'success')
 
-        redirect(url_for('about'))
+        #ToDo: Define login route
+        return redirect(url_for('about'))
     return render_template('register.html', form = form)
 
 if __name__ == '__main__':
