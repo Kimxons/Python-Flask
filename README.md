@@ -2,8 +2,11 @@
 Python-Flask API using Flask render and templates while fetching and storing data in MySQL database.
 
 ## Modules
+pip install Flask
 pip install flask-mysql
 Ref: https://flask-mysql.readthedocs.io/en/latest/#
+
+pip install Flask-WTF
 
 Set Up
 ## MySQL Script
